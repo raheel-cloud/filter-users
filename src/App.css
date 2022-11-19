@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+h1{
+  color: white;
+  margin-left: 3rem;
+}
+.table{
+  width: 90%;
+  margin: 1rem 3rem 1rem 3rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10px gray;
+  border-collapse: collapse;
+  background-color: white;
+}
+tr,th, td{
+  text-align: center;
+  padding: 0.5rem;
+}
+td, th{
+  box-shadow: 1px 1px 1px gray;
+}
+thead{
+  background-color: rgb(63, 177, 63);
+  color: white;
+  border-radius: 1rem;
+}
+tbody tr:nth-of-type(even){
+  background-color: #f2f2f2;;
+  color: green;
+}
+
